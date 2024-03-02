@@ -1,4 +1,5 @@
 import random
+
 # Mean
 list = [random.randrange(10, 30) for i in range(10)]
 mean = sum(list)/len(list)
@@ -27,7 +28,6 @@ for i, j in frequency.items():
     if j == frequent:
         mode = i
 print(f"Mode of {list}: {mode}")
-
 
 # Mode: Simple with dictionary comprehension
 list = [12, 16, 20, 20, 12, 30, 25, 23, 24, 20]

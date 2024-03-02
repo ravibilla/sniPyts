@@ -1,4 +1,5 @@
 import random
+
 n = random.randrange(1, 10)
 guess = int(input("Enter any number: "))
 while n != guess:
@@ -10,4 +11,4 @@ while n != guess:
         guess = int(input("Enter number again: "))
     else: 
         break
-print("you guessed it right")
+print("You guessed it right")
