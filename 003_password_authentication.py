@@ -1,3 +1,4 @@
+# Password authentication
 import getpass
 
 database = {"ravi.billa": "123456", "billa.ravi": "654321"}

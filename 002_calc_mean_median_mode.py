@@ -1,3 +1,4 @@
+# Calculate mean, median and mode
 import random
 
 # Mean
