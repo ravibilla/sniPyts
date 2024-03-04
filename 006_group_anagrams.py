@@ -10,3 +10,4 @@ def group_anagrams(words):
 
 words = ["tea", "eat", "bat", "ate", "arc", "car"]
 print(f"Grouped anagrams: {group_anagrams(words)}")
+ 
