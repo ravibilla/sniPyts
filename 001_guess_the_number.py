@@ -1,4 +1,4 @@
-# Number guessing game
+# Guess the number
 import random
 
 n = random.randrange(1, 10)

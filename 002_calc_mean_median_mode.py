@@ -30,7 +30,7 @@ for i, j in frequency.items():
         mode = i
 print(f"Mode of {list}: {mode}")
 
-# Mode: Simple with dictionary comprehension
+# Mode: Simpler code with dictionary comprehension
 list = [12, 16, 20, 20, 12, 30, 25, 23, 24, 20]
 freq = {key: list.count(key) for key in list} 
 mode = max(freq, key=freq.get)

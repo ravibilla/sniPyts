@@ -1,9 +1,9 @@
-# Send automatic emails
+# Send email
 import os
 import random
 import smtplib
 
-def automatic_email():
+def send_email():
     user = input("Enter your name >>")
     email = input("Enter your e-mail >>")
     message = (f"Dear {user}, weclome to snipyts")
@@ -13,4 +13,4 @@ def automatic_email():
     s.sendmail('&&&&&&&', email, message)
     print("Email sent")
 
-automatic_email()
+send_email()
